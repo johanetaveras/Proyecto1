@@ -17,3 +17,7 @@ C:\Users\Johan\documents\visual studio 2015\Projects\Proyecto1Sistema\Proyecto1S
 C:\Users\Johan\documents\visual studio 2015\Projects\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.ConsultaEmpleadosFrm.resources
 C:\Users\Johan\documents\visual studio 2015\Projects\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.ConsultaProductoFrm.resources
 C:\Users\Johan\documents\visual studio 2015\Projects\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.ConsultaServiciosFrm.resources
+C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\bin\Debug\Proyecto1Sistema.exe.config
+C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.exe
+C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.xml
+C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.pdb
