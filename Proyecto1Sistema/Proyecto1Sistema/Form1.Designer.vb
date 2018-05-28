@@ -38,7 +38,7 @@ Partial Class Form1
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(-3, 23)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(617, 298)
+        Me.PictureBox1.Size = New System.Drawing.Size(617, 299)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -72,11 +72,11 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(235, 5)
+        Me.Label3.Location = New System.Drawing.Point(167, 5)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(107, 15)
+        Me.Label3.Size = New System.Drawing.Size(298, 15)
         Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Sistema UTESA"
+        Me.Label3.Text = "Sistema Tienda Muebles y Electrodomesticos"
         '
         'Timer1
         '
