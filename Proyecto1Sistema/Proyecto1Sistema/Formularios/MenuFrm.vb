@@ -32,4 +32,12 @@
         Me.Hide()
         ConsultasSuplidorFrm.Show()
     End Sub
+
+    Private Sub UsuarioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UsuarioToolStripMenuItem.Click
+        UsuariosFrm.Show()
+    End Sub
+
+    Private Sub ClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClienteToolStripMenuItem.Click
+        ClienteFrm.Show()
+    End Sub
 End Class

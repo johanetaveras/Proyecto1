@@ -27,7 +27,6 @@ Partial Class MenuFrm
         Me.UsuarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProductoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SuplidorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SuplidorToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -63,7 +62,7 @@ Partial Class MenuFrm
         '
         'MantenimientToolStripMenuItem
         '
-        Me.MantenimientToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuarioToolStripMenuItem, Me.ClienteToolStripMenuItem, Me.ProductoToolStripMenuItem, Me.ProductosToolStripMenuItem, Me.SuplidorToolStripMenuItem, Me.SuplidorToolStripMenuItem2})
+        Me.MantenimientToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuarioToolStripMenuItem, Me.ClienteToolStripMenuItem, Me.ProductoToolStripMenuItem, Me.SuplidorToolStripMenuItem, Me.SuplidorToolStripMenuItem2})
         Me.MantenimientToolStripMenuItem.Name = "MantenimientToolStripMenuItem"
         Me.MantenimientToolStripMenuItem.Size = New System.Drawing.Size(101, 20)
         Me.MantenimientToolStripMenuItem.Text = "Mantenimiento"
@@ -86,17 +85,11 @@ Partial Class MenuFrm
         Me.ProductoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ProductoToolStripMenuItem.Text = "Empleados"
         '
-        'ProductosToolStripMenuItem
-        '
-        Me.ProductosToolStripMenuItem.Name = "ProductosToolStripMenuItem"
-        Me.ProductosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.ProductosToolStripMenuItem.Text = "Productos"
-        '
         'SuplidorToolStripMenuItem
         '
         Me.SuplidorToolStripMenuItem.Name = "SuplidorToolStripMenuItem"
         Me.SuplidorToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.SuplidorToolStripMenuItem.Text = "Servicios"
+        Me.SuplidorToolStripMenuItem.Text = "Productos"
         '
         'SuplidorToolStripMenuItem2
         '
@@ -157,37 +150,37 @@ Partial Class MenuFrm
         'UsuarioToolStripMenuItem1
         '
         Me.UsuarioToolStripMenuItem1.Name = "UsuarioToolStripMenuItem1"
-        Me.UsuarioToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.UsuarioToolStripMenuItem1.Size = New System.Drawing.Size(132, 22)
         Me.UsuarioToolStripMenuItem1.Text = "Usuario"
         '
         'ClienteToolStripMenuItem1
         '
         Me.ClienteToolStripMenuItem1.Name = "ClienteToolStripMenuItem1"
-        Me.ClienteToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.ClienteToolStripMenuItem1.Size = New System.Drawing.Size(132, 22)
         Me.ClienteToolStripMenuItem1.Text = "Cliente"
         '
         'EmpleadosToolStripMenuItem
         '
         Me.EmpleadosToolStripMenuItem.Name = "EmpleadosToolStripMenuItem"
-        Me.EmpleadosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EmpleadosToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.EmpleadosToolStripMenuItem.Text = "Empleados"
         '
         'ProductosToolStripMenuItem1
         '
         Me.ProductosToolStripMenuItem1.Name = "ProductosToolStripMenuItem1"
-        Me.ProductosToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.ProductosToolStripMenuItem1.Size = New System.Drawing.Size(132, 22)
         Me.ProductosToolStripMenuItem1.Text = "Productos"
         '
         'ServiciosToolStripMenuItem
         '
         Me.ServiciosToolStripMenuItem.Name = "ServiciosToolStripMenuItem"
-        Me.ServiciosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ServiciosToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
         Me.ServiciosToolStripMenuItem.Text = "Servicios"
         '
         'SuplidorToolStripMenuItem3
         '
         Me.SuplidorToolStripMenuItem3.Name = "SuplidorToolStripMenuItem3"
-        Me.SuplidorToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
+        Me.SuplidorToolStripMenuItem3.Size = New System.Drawing.Size(132, 22)
         Me.SuplidorToolStripMenuItem3.Text = "Suplidor"
         '
         'AyudaToolStripMenuItem
@@ -258,7 +251,6 @@ Partial Class MenuFrm
     Friend WithEvents UsuarioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ClienteToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ProductoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ProductosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SuplidorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents UsuariosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ClientesToolStripMenuItem As ToolStripMenuItem

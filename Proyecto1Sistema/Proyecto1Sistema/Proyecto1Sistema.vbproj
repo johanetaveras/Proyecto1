@@ -79,6 +79,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formularios\ClienteFrm.Designer.vb">
+      <DependentUpon>ClienteFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ClienteFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\ConsultaClienteFrm.Designer.vb">
       <DependentUpon>ConsultaClienteFrm.vb</DependentUpon>
     </Compile>
@@ -127,6 +133,12 @@
     <Compile Include="Formularios\MenuFrm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formularios\UsuariosFrm.Designer.vb">
+      <DependentUpon>UsuariosFrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\UsuariosFrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -152,6 +164,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ClienteFrm.resx">
+      <DependentUpon>ClienteFrm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\ConsultaClienteFrm.resx">
       <DependentUpon>ConsultaClienteFrm.vb</DependentUpon>
     </EmbeddedResource>
@@ -175,6 +190,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MenuFrm.resx">
       <DependentUpon>MenuFrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\UsuariosFrm.resx">
+      <DependentUpon>UsuariosFrm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
