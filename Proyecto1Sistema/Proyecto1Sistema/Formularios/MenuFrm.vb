@@ -40,4 +40,24 @@
     Private Sub ClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClienteToolStripMenuItem.Click
         ClienteFrm.Show()
     End Sub
+
+    Private Sub ProductoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProductoToolStripMenuItem.Click
+        EmpleadosFrm.Show()
+    End Sub
+
+    Private Sub SuplidorToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles SuplidorToolStripMenuItem2.Click
+        SuplidorFrm.Show()
+    End Sub
+
+    Private Sub ServiciosToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ServiciosToolStripMenuItem2.Click
+        ServiciosFrm.Show()
+    End Sub
+
+    Private Sub MueblesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MueblesToolStripMenuItem.Click
+        MueblesFrm.Show()
+    End Sub
+
+    Private Sub ElectrodomesticosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ElectrodomesticosToolStripMenuItem.Click
+        electrodoFrm.Show()
+    End Sub
 End Class

@@ -61,7 +61,7 @@ Partial Class ConsultaProductoFrm
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Codigo", "Nombre"})
+        Me.ComboBox1.Items.AddRange(New Object() {"Electrodomesticos", "Muebles"})
         Me.ComboBox1.Location = New System.Drawing.Point(25, 33)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(82, 21)

@@ -38,3 +38,8 @@ C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\P
 C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.Resources.resources
 C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.vbproj.GenerateResource.Cache
 C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.ClienteFrm.resources
+C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.EmpleadosFrm.resources
+C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.SuplidorFrm.resources
+C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.electrodoFrm.resources
+C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.MueblesFrm.resources
+C:\Users\the_J\OneDrive\Documentos\tareas\proyecto1\Proyecto1\Proyecto1Sistema\Proyecto1Sistema\obj\Debug\Proyecto1Sistema.ServiciosFrm.resources

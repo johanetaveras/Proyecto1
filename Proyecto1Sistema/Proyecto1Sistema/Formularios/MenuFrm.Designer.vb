@@ -22,6 +22,7 @@ Partial Class MenuFrm
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenuFrm))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.MantenimientToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UsuarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -47,8 +48,13 @@ Partial Class MenuFrm
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.ElectrodomesticosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MueblesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ServiciosToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -62,7 +68,7 @@ Partial Class MenuFrm
         '
         'MantenimientToolStripMenuItem
         '
-        Me.MantenimientToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuarioToolStripMenuItem, Me.ClienteToolStripMenuItem, Me.ProductoToolStripMenuItem, Me.SuplidorToolStripMenuItem, Me.SuplidorToolStripMenuItem2})
+        Me.MantenimientToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuarioToolStripMenuItem, Me.ClienteToolStripMenuItem, Me.ProductoToolStripMenuItem, Me.SuplidorToolStripMenuItem, Me.SuplidorToolStripMenuItem2, Me.ServiciosToolStripMenuItem2})
         Me.MantenimientToolStripMenuItem.Name = "MantenimientToolStripMenuItem"
         Me.MantenimientToolStripMenuItem.Size = New System.Drawing.Size(101, 20)
         Me.MantenimientToolStripMenuItem.Text = "Mantenimiento"
@@ -87,6 +93,7 @@ Partial Class MenuFrm
         '
         'SuplidorToolStripMenuItem
         '
+        Me.SuplidorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ElectrodomesticosToolStripMenuItem, Me.MueblesToolStripMenuItem})
         Me.SuplidorToolStripMenuItem.Name = "SuplidorToolStripMenuItem"
         Me.SuplidorToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SuplidorToolStripMenuItem.Text = "Productos"
@@ -220,11 +227,40 @@ Partial Class MenuFrm
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Ver. 1.1.0.0.0.1"
         '
+        'ElectrodomesticosToolStripMenuItem
+        '
+        Me.ElectrodomesticosToolStripMenuItem.Name = "ElectrodomesticosToolStripMenuItem"
+        Me.ElectrodomesticosToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.ElectrodomesticosToolStripMenuItem.Text = "Electrodomesticos"
+        '
+        'MueblesToolStripMenuItem
+        '
+        Me.MueblesToolStripMenuItem.Name = "MueblesToolStripMenuItem"
+        Me.MueblesToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.MueblesToolStripMenuItem.Text = "Muebles"
+        '
+        'ServiciosToolStripMenuItem2
+        '
+        Me.ServiciosToolStripMenuItem2.Name = "ServiciosToolStripMenuItem2"
+        Me.ServiciosToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
+        Me.ServiciosToolStripMenuItem2.Text = "Servicios"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 27)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(671, 286)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
+        '
         'MenuFrm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(671, 334)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -235,6 +271,7 @@ Partial Class MenuFrm
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -265,4 +302,8 @@ Partial Class MenuFrm
     Friend WithEvents SuplidorToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents SuplidorToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents SuplidorToolStripMenuItem3 As ToolStripMenuItem
+    Friend WithEvents ElectrodomesticosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MueblesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ServiciosToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

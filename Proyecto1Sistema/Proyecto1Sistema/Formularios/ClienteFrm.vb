@@ -33,7 +33,7 @@ Public Class ClienteFrm
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim cmd As New SqlClient.SqlCommand("INSERT INTO clientes(nombres,apellidos,direccion,telefono,celular,cedula,trabajo,garante_id,garante_nombres,garante_apellidos,garante_cedula,garante_lugartrabajo,garante_cargo,garante_salario)values('" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & TextBox6.Text & "','" & TextBox7.Text & "','" & TextBox14.Text & "','" & TextBox13.Text & "','" & TextBox12.Text & "','" & TextBox11.Text & "','" & TextBox10.Text & "','" & TextBox9.Text & "','" & TextBox8.Text & "')", cn)
+        Dim cmd As New SqlClient.SqlCommand("INSERT INTO clientes(nombres,apellidos,direccion,telefono,celular,cedula,trabajo,garante_id,garante_nombres,garante_apellidos,garante_cedula,garante_lugartrabajo,garante_cargo,garante_salario)values('" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "','" & TextBox4.Text & "','" & TextBox5.Text & "','" & TextBox6.Text & "','" & TextBox7.Text & "','" & TextBox8.Text & "','" & TextBox9.Text & "','" & TextBox10.Text & "','" & TextBox11.Text & "','" & TextBox12.Text & "','" & TextBox13.Text & "','" & TextBox14.Text & "')", cn)
         Dim DA As New SqlDataAdapter(cmd)
         Dim ds As New DataSet
 

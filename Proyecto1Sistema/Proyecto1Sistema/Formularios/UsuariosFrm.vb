@@ -11,8 +11,7 @@ Public Class UsuariosFrm
     Private Sub UsuariosFrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         TextBox1.Focus()
     End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Public Sub ent1()
         Dim cmd As New SqlClient.SqlCommand("INSERT INTO TBL_USUARIO(USUARIO,Clave,departamento_area)values('" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "')", cn)
         Dim DA As New SqlDataAdapter(cmd)
         Dim ds As New DataSet
@@ -26,8 +25,11 @@ Public Class UsuariosFrm
             MsgBox("REGISTRO GUARDADO")
             TextBox1.Focus()
             Nuevo()
-
         End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        ent1()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -51,21 +53,7 @@ Public Class UsuariosFrm
 
     Private Sub TextBox3_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox3.KeyPress
         If e.KeyChar = Chr(13) Then
-            Dim cmd As New SqlClient.SqlCommand("INSERT INTO TBL_USUARIO(USUARIO,Clave,departamento_area)values('" & TextBox1.Text & "','" & TextBox2.Text & "','" & TextBox3.Text & "')", cn)
-            Dim DA As New SqlDataAdapter(cmd)
-            Dim ds As New DataSet
-
-            If (TextBox1.Text = "") Or (TextBox2.Text = "") Or (TextBox3.Text = "") Then
-                MsgBox("DEBE LLENAR TODOS LOS CAMPOS PARA REGISTRAR")
-            Else
-                cn.Open()
-                cmd.ExecuteNonQuery()
-                cn.Close()
-                MsgBox("REGISTRO GUARDADO")
-                TextBox1.Focus()
-                Nuevo()
-            End If
+            ent1()
         End If
-
     End Sub
 End Class
