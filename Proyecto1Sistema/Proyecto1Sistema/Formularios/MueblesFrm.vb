@@ -1,6 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Public Class MueblesFrm
-    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS;Initial Catalog=Proyecto1DB;Integrated Security=True ")
+    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS201;Initial Catalog=Proyecto1DB;Integrated Security=True ")
     Sub Nuevo()
         TextBox1.Clear()
         TextBox2.Clear()
@@ -53,6 +53,10 @@ Public Class MueblesFrm
 
     Private Sub TextBox8_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox8.KeyPress
         ent1()
+
+    End Sub
+
+    Private Sub MueblesFrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

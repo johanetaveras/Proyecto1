@@ -1,6 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Public Class SuplidorFrm
-    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS;Initial Catalog=Proyecto1DB;Integrated Security=True ")
+    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS201;Initial Catalog=Proyecto1DB;Integrated Security=True")
     Sub Nuevo1()
         TextBox1.Clear()
         TextBox2.Clear()

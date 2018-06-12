@@ -1,6 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Public Class electrodoFrm
-    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS;Initial Catalog=Proyecto1DB;Integrated Security=True ")
+    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS201;Initial Catalog=Proyecto1DB;Integrated Security=True")
     Sub Nuevo1()
         TextBox1.Clear()
         TextBox2.Clear()
@@ -59,5 +59,9 @@ Public Class electrodoFrm
         If e.KeyChar = Chr(13) Then
             ent1()
         End If
+    End Sub
+
+    Private Sub electrodoFrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

@@ -4,7 +4,7 @@ Imports System.IO
 
 
 Public Class EmpleadosFrm
-    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS;Initial Catalog=Proyecto1DB;Integrated Security=True ")
+    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS201;Initial Catalog=Proyecto1DB;Integrated Security=True ")
     Sub Nuevo1()
         TextBox1.Clear()
         TextBox2.Clear()
@@ -65,5 +65,9 @@ Public Class EmpleadosFrm
         If opf.ShowDialog = DialogResult.OK Then
             PictureBox1.Image = Image.FromFile(opf.FileName)
         End If
+    End Sub
+
+    Private Sub TabPage1_Click(sender As Object, e As EventArgs) Handles TabPage1.Click
+
     End Sub
 End Class

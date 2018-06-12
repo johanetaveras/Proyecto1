@@ -87,5 +87,210 @@ Update Order Option
 Used to sort self-referenced table's rows
 </summary>
 </member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.clientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.cotizacionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.electrodomesticosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.empleadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.mueblesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.serviciosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.suplidoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.TBL_USUARIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.clientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.cotizacionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.electrodomesticosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.empleadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.mueblesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.serviciosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.suplidoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.TBL_USUARIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.clientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.cotizacionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.electrodomesticosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.empleadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.mueblesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.serviciosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.suplidoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1.TBL_USUARIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.clientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.cotizacionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.electrodomesticosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.empleadoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.mueblesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.serviciosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.suplidoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.TBL_USUARIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto1Sistema.Proyecto1DBDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto1Sistema.Proyecto1DBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto1Sistema.Proyecto1DBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.TableAdapterManager.UpdateAll(Proyecto1Sistema.Proyecto1DBDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto1Sistema.Proyecto1DBDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>

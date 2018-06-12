@@ -1,6 +1,6 @@
 ﻿Imports System.Data.SqlClient
 Public Class ServiciosFrm
-    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS;Initial Catalog=Proyecto1DB;Integrated Security=True ")
+    Dim cn As New SqlClient.SqlConnection("Data Source=JOHAN-PC\JOHANETAVERAS201;Initial Catalog=Proyecto1DB;Integrated Security=True")
     Sub Nuevo()
         TextBox1.Clear()
         TextBox2.Clear()
@@ -61,5 +61,9 @@ Public Class ServiciosFrm
 
             End If
         End If
+    End Sub
+
+    Private Sub ServiciosFrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
